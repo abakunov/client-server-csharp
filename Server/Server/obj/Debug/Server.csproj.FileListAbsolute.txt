@@ -1,0 +1,5 @@
+/Users/abakunov/Desktop/proverbs/client-server-csharp/Server/Server/bin/Debug/Server.exe
+/Users/abakunov/Desktop/proverbs/client-server-csharp/Server/Server/bin/Debug/Server.pdb
+/Users/abakunov/Desktop/proverbs/client-server-csharp/Server/Server/obj/Debug/Server.csprojAssemblyReference.cache
+/Users/abakunov/Desktop/proverbs/client-server-csharp/Server/Server/obj/Debug/Server.exe
+/Users/abakunov/Desktop/proverbs/client-server-csharp/Server/Server/obj/Debug/Server.pdb
