@@ -1,12 +1,33 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Net;
+using System.Net.Sockets;
+using System.IO;
 
-namespace Client
+class MyTCPClient
 {
-    class MainClass
+    static void Main()
     {
-        public static void Main(string[] args)
+        do
         {
-            Console.WriteLine("Hello World!");
+            string message = Console.ReadLine();
+            string request = SendRequestAndRecieveAnswer
+                ("127.0.0.1", 13000, message);
+            Console.WriteLine("Ответ сервера: {0}", request);
         }
+        while (true);
+    }
+
+    public static string SendRequestAndRecieveAnswer
+        (string server, int port, string message)
+    {
+        string request;
+        using var client = new TcpClient(server, port);
+        using Stream stream = client.GetStream();
+        using var bw = new BinaryWriter(stream);
+        bw.Write(message);
+        using BinaryReader br = new BinaryReader(stream);
+        request = br.ReadString();
+        return request;
     }
 }

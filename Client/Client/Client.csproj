@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">anycpu</Platform>
     <ProjectGuid>{F2B9FF38-928D-40F5-A757-B6C7B9491A34}</ProjectGuid>

@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{76188621-98FE-4E1F-96E4-934E9D938331}|Default">
   <MonoDevelop.Ide.ItemProperties.Server PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Server/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Server/Program.cs" Line="17" Column="14" />
+      <File FileName="Program.cs" Line="11" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
